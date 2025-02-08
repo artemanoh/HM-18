@@ -42,8 +42,7 @@ const images = [
 
 const listElement = document.querySelector("#gallery");
 
-const imagesList = images.map(
-  ({ url, alt }) =>
+const imagesList = images.map(({ url, alt }) =>
     `<li>
     <img src="${url}" alt="${alt}" width="300">
     </li>`
